@@ -1,4 +1,5 @@
-
+<pre>
+<?php
 function randPassBetter($passLength){
     function randInt($length){
         global $allChars;
@@ -48,3 +49,5 @@ function randPassBetter($passLength){
             }
 
 print("\n" . randPassBetter(12));
+?>
+</pre>
