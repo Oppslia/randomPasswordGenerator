@@ -1,4 +1,3 @@
-<pre>
 <?php
 function randPassBetter($passLength){
     function randInt($length){
@@ -50,4 +49,4 @@ function randPassBetter($passLength){
 
 print("\n" . randPassBetter(12));
 ?>
-</pre>
+
